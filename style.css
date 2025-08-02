@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ body {
+    text-align: center;
+    background-color: rgb(20, 8, 59) ;
+    padding: 1.5rem;
+} 
+.container {
+    height: 70%;
+    width: 500px;
+    max-width: 1200px;
+    margin: 0.5rem auto;
+}
+.title {
+    color: rgb(174, 191, 218);
+    margin-top: 0.5rem;
+    font-family:Merriweather;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.game {
+   margin-top: 2.5rem;
+   margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(30px, 1fr));
+    gap: 10px;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.box {
+    height: 150px;
+    width: 150px;
+   
+    border: 2.5px solid rgb(68, 21, 189);
+    border-radius: 20%;
+  font-size: 3.5rem;
+  color: rgb(161, 37, 37);
+  background-color: aliceblue;
+}
+.reset {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(0, 0, 0);
+color: white;
+border-radius: 1rem;
+border: 1px solid rgb(150, 142, 142);
+}
+
+.new {
+    padding: 0.7rem;
+     font-size: 0.8rem;
+     margin-top: 10px;
+      background-color: rgb(0, 0, 0);
+color: white;
+border-radius: 1rem;
+border: 1px solid rgb(150, 142, 142);
+   
+}
+#msg {
+    color: white;
+    font-size: 2rem;
+}
+.hide {
+    display: none;
+}
+ 
+@media(max-width: 535px) {
+    .title {
+        font-size: 4rem;
+        text-align: center;
+
+    }
+}
